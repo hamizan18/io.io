@@ -26,7 +26,7 @@ fn main(){
     let a: i32 = input.trim().parse().unwrap();
 
     input.clear();
-    print!("Masukkan nilai b: ");
+    print!("Masukkan nilai kedua: ");
     io::Write::flush(&mut io::stdout()).unwrap();
     io::stdin().read_line(&mut input).unwrap();
     let b: i32 = input.trim().parse().unwrap();
